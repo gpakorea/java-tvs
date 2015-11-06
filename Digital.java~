@@ -1,0 +1,5 @@
+// Interface Digital.java
+
+public interface Digital {
+  
+} // END interface Digital

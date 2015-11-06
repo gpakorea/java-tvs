@@ -1,0 +1,5 @@
+// Interface Analog.java
+
+public interface Analog {
+  
+} // END interface Analog

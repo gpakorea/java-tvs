@@ -1,0 +1,14 @@
+/*
+ * Project: AnalogDigitalDriver.java
+ * Description: Creates BWTVs and HDTVs
+ * Name: Aaron Snowberger
+ * Date: Nov 6, 2015
+ */
+
+public class AnalogDigitalDriver {
+  
+  public static void main( String[] args ) {
+    
+  } // END main method
+  
+} // END class AnalogDigitalDriver

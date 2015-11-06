@@ -1,0 +1,5 @@
+// HDTV.java
+
+public class HDTV extends TV implements Digital {
+  
+} // END class HDTV
