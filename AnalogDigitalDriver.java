@@ -14,14 +14,19 @@ public class AnalogDigitalDriver {
     BWTV bw = new BWTV();
     HDTV hd = new HDTV();
     
-    //ArrayList tvs = new ArrayList<TV>();
-    //tvs.add( bw );
-    //tvs.add( hd );
+    ArrayList<TV> tvs = new ArrayList<TV>();
+    tvs.add( bw );
+    tvs.add( hd );
     
-    System.out.println( bw.tvTYPE() );
-    System.out.println( bw.rotateRabbitEars() );
+    for ( TV tv:tvs ) { // for int i=0; i<tvs.length; i++
+      System.out.println( tv.tvTYPE() );
+      System.out.println( "TV on: " + tv.getTvOn() );
+      tv.setTvOn( true );
+      System.out.println( "TV on: " + tv.getTvOn() );
+    }
     System.out.println();
-    System.out.println( hd.tvTYPE() );
+    
+    System.out.println( bw.rotateRabbitEars() );
     System.out.println( hd.connectHDMI() ); 
     
   } // END main method
